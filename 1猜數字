@@ -9,7 +9,7 @@ number = random.randrange(1, 100)
 running = True
 
 while running:
-    guess = int(raw_input("Guess a number(1~100):"))
+    guess = int(input("Guess a number(1~100):"))
 
     if guess == number:
         print "Congratulations! You win!"
